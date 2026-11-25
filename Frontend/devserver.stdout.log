@@ -1,0 +1,75 @@
+
+> siteetec@0.0.0 dev
+> vite --host 127.0.0.1 --port 5173
+
+
+  VITE v8.0.16  ready in 104534 ms
+
+  ➜  Local:   http://127.0.0.1:5173/
+11:16:53 [vite] (client) hmr update /src/components/SupportChat.tsx, /src/index.css
+11:17:09 [vite] (client) hmr update /src/components/SupportChat.tsx, /src/index.css
+11:17:59 [vite] (client) hmr update /src/components/SupportChat.tsx, /src/index.css
+11:18:41 [vite] (client) hmr update /src/components/SupportChat.tsx, /src/index.css
+11:18:41 [vite] (client) hmr update /src/components/SupportChat.tsx, /src/index.css
+11:24:02 [vite] (client) hmr update /src/layout/Sidebar.tsx, /src/components/SectionPages.tsx, /src/index.css
+11:24:02 [vite] (client) hmr update /src/layout/Sidebar.tsx, /src/index.css
+11:24:02 [vite] (client) hmr update /src/App.tsx, /src/index.css
+11:24:02 [vite] (client) hmr update /src/layout/Sidebar.tsx, /src/index.css
+11:24:50 [vite] (client) hmr update /src/components/SectionPages.tsx, /src/index.css
+11:25:14 [vite] (client) hmr update /src/components/SectionPages.tsx, /src/index.css
+11:25:40 [vite] (client) hmr update /src/components/Icon.tsx, /src/index.css
+11:25:40 [vite] (client) hmr update /src/layout/Sidebar.tsx, /src/index.css
+11:25:40 [vite] (client) hmr update /src/layout/Sidebar.tsx, /src/index.css
+11:25:59 [vite] (client) hmr update /src/index.css, /src/components/SupportChat.css
+11:26:31 [vite] (client) hmr update /src/components/SectionPages.tsx, /src/index.css
+11:26:31 [vite] (client) hmr update /src/components/SupportChat.tsx, /src/index.css
+11:26:31 [vite] (client) hmr update /src/components/SectionPages.tsx, /src/index.css
+11:26:41 [vite] (client) hmr update /src/components/SupportChat.tsx, /src/index.css
+11:26:41 [vite] (client) hmr update /src/components/SupportChat.tsx, /src/index.css
+11:26:41 [vite] (client) hmr update /src/index.css, /src/components/SupportChat.css
+11:36:28 [vite] (client) hmr update /src/index.css, /src/components/SupportChat.css
+11:48:08 [vite] (client) hmr update /src/components/SupportChat.tsx, /src/index.css
+11:48:47 [vite] (client) hmr update /src/components/SupportChat.tsx, /src/index.css
+11:49:15 [vite] (client) hmr update /src/index.css, /src/components/SupportChat.css
+11:49:15 [vite] (client) hmr update /src/index.css, /src/components/SupportChat.css
+11:52:47 [vite] (client) hmr update /src/components/SupportChat.tsx, /src/index.css
+11:53:30 [vite] (client) hmr update /src/index.css, /src/components/SupportChat.css
+11:53:30 [vite] (client) hmr update /src/index.css, /src/components/SupportChat.css
+11:58:52 [vite] (client) hmr update /src/index.css, /src/components/SupportChat.css
+12:07:44 [vite] (client) hmr update /src/App.tsx, /src/page/LoginPage.tsx, /src/components/SectionPages.tsx, /src/components/SupportChat.tsx, /src/index.css
+12:10:56 [vite] (client) hmr update /src/components/SectionPages.tsx, /src/index.css
+12:11:22 [vite] (client) hmr update /src/components/SectionPages.tsx, /src/index.css
+12:11:39 [vite] (client) hmr update /src/components/SectionPages.tsx, /src/index.css
+12:11:42 [vite] (client) hmr invalidate /src/components/SectionPages.tsx Could not Fast Refresh (new export)
+12:11:42 [vite] (client) hmr update /src/App.tsx
+12:15:44 [vite] (client) hmr update /src/page/DashboardPage.tsx, /src/index.css
+12:15:51 [vite] (client) hmr update /src/App.tsx, /src/index.css
+12:16:04 [vite] (client) hmr update /src/DashboardOverview.css, /src/index.css
+12:24:55 [vite] (client) hmr update /src/App.tsx, /src/page/LoginPage.tsx, /src/components/SectionPages.tsx, /src/components/SupportChat.tsx, /src/index.css
+12:25:38 [vite] (client) hmr update /src/components/SectionPages.tsx, /src/index.css
+12:25:45 [vite] (client) hmr update /src/components/SectionPages.tsx, /src/index.css
+12:25:50 [vite] (client) hmr invalidate /src/components/SectionPages.tsx Could not Fast Refresh (new export)
+12:25:50 [vite] (client) hmr update /src/App.tsx
+12:26:26 [vite] (client) hmr update /src/components/SectionPages.tsx, /src/index.css
+12:26:43 [vite] (client) hmr update /src/App.tsx
+12:34:31 [vite] (client) hmr update /src/components/SectionPages.tsx, /src/index.css
+12:35:19 [vite] (client) hmr update /src/components/SectionPages.tsx, /src/index.css
+12:37:03 [vite] (client) hmr update /src/App.tsx, /src/page/LoginPage.tsx, /src/components/SectionPages.tsx, /src/components/SupportChat.tsx, /src/index.css
+12:38:50 [vite] (client) hmr update /src/components/SectionPages.tsx, /src/index.css
+12:39:24 [vite] (client) hmr update /src/components/SectionPages.tsx, /src/index.css
+12:50:55 [vite] (client) hmr update /src/page/DashboardPage.tsx, /src/index.css
+12:51:33 [vite] (client) hmr update /src/page/DashboardPage.tsx, /src/index.css
+12:51:56 [vite] (client) hmr update /src/DashboardOverview.css, /src/index.css
+12:52:09 [vite] (client) hmr update /src/DashboardOverview.css, /src/index.css
+12:58:11 [vite] (client) hmr update /src/page/DashboardPage.tsx, /src/index.css
+13:10:06 [vite] (client) hmr update /src/page/DashboardPage.tsx, /src/index.css
+13:10:40 [vite] (client) hmr update /src/page/DashboardPage.tsx, /src/index.css
+13:10:47 [vite] (client) hmr update /src/page/DashboardPage.tsx, /src/index.css
+13:10:54 [vite] (client) hmr update /src/page/DashboardPage.tsx, /src/index.css
+13:11:06 [vite] (client) hmr update /src/page/DashboardPage.tsx, /src/index.css
+13:12:26 [vite] (client) hmr update /src/page/DashboardPage.tsx, /src/index.css
+13:12:36 [vite] (client) hmr update /src/page/DashboardPage.tsx, /src/index.css
+13:12:56 [vite] (client) hmr update /src/page/DashboardPage.tsx, /src/index.css
+13:13:08 [vite] (client) hmr update /src/page/DashboardPage.tsx, /src/index.css
+13:13:23 [vite] (client) hmr update /src/DashboardOverview.css, /src/index.css
+13:13:50 [vite] (client) hmr update /src/DashboardOverview.css, /src/index.css

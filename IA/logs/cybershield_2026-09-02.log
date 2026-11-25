@@ -1,0 +1,51 @@
+2026-09-02 11:22:29.009 | ERROR    | __main__:main:121 - Aucun fichier .csv trouvé dans E:\Mytech\cyberShieldAI\IA\phishing\datasets\raw
+2026-09-02 11:25:34.104 | INFO     | __main__:clean_file:64 - Traitement : PhiUSIIL_Phishing_URL_Dataset.csv
+2026-09-02 11:25:49.400 | INFO     | __main__:clean_file:67 -   235,795 lignes brutes
+2026-09-02 11:25:49.947 | INFO     | __main__:clean_file:87 -   Répartition standardisée : 100,945 phishing / 134,850 légitime
+2026-09-02 11:25:50.697 | INFO     | __main__:clean_file:93 -   Colonnes texte retirées : ['FILENAME', 'URL', 'Domain', 'TLD', 'Title', 'label']
+2026-09-02 11:25:52.244 | INFO     | __main__:clean_file:106 -   808 doublons supprimés
+2026-09-02 11:25:52.369 | INFO     | __main__:clean_file:114 -   ✓ 234,987 lignes finales, 51 colonnes
+2026-09-02 11:26:00.837 | INFO     | __main__:main:132 - ✓ Sauvegardé : E:\Mytech\cyberShieldAI\IA\phishing\datasets\processed\PhiUSIIL_Phishing_URL_Dataset_clean.parquet
+2026-09-02 11:35:10.971 | INFO     | __main__:main:41 - PhiUSIIL_Phishing_URL_Dataset_clean.parquet : 234,987 lignes
+2026-09-02 11:35:11.089 | INFO     | __main__:main:44 - Dataset fusionné : 234,987 lignes, 51 colonnes
+2026-09-02 11:35:30.214 | INFO     | __main__:main:59 - Train : 187,989 lignes | Test : 46,998 lignes
+2026-09-02 11:35:37.027 | INFO     | __main__:main:66 - ✓ Fichiers sauvegardés dans E:\Mytech\cyberShieldAI\IA\phishing\datasets\final
+2026-09-02 11:52:31.818 | INFO     | __main__:main:30 - Chargement des données
+2026-09-02 11:52:44.343 | INFO     | __main__:main:36 - Train : 187,989 lignes, 50 features
+2026-09-02 11:52:44.344 | INFO     | __main__:main:37 - Test  : 46,998 lignes
+2026-09-02 11:52:44.345 | INFO     | __main__:main:42 - scale_pos_weight = 1.347
+2026-09-02 11:52:44.346 | INFO     | __main__:main:59 - Entraînement...
+2026-09-02 11:53:28.400 | INFO     | __main__:main:97 - ✓ Modèle sauvegardé : E:\Mytech\cyberShieldAI\IA\phishing\models\xgb_phishing_model.json
+2026-09-02 11:56:47.226 | INFO     | __main__:main:30 - Chargement des données
+2026-09-02 11:56:51.227 | INFO     | __main__:main:36 - Train : 187,989 lignes, 50 features
+2026-09-02 11:56:51.228 | INFO     | __main__:main:37 - Test  : 46,998 lignes
+2026-09-02 11:56:51.229 | WARNING  | __main__:main:52 - Retrait de features à fuite de données : ['URLSimilarityIndex']
+2026-09-02 11:56:51.544 | INFO     | __main__:main:59 - scale_pos_weight = 1.347
+2026-09-02 11:56:51.544 | INFO     | __main__:main:76 - Entraînement...
+2026-09-02 11:57:59.107 | INFO     | __main__:main:114 - ✓ Modèle sauvegardé : E:\Mytech\cyberShieldAI\IA\phishing\models\xgb_phishing_model.json
+2026-09-02 12:07:54.325 | INFO     | __main__:clean_file:69 - Traitement : PhiUSIIL_Phishing_URL_Dataset.csv
+2026-09-02 12:08:06.294 | INFO     | __main__:clean_file:72 -   235,795 lignes brutes
+2026-09-02 12:08:06.794 | INFO     | __main__:clean_file:92 -   Répartition standardisée : 100,945 phishing / 134,850 légitime
+2026-09-02 12:08:07.481 | INFO     | __main__:clean_file:98 -   Colonnes texte retirées : ['FILENAME', 'URL', 'TLD', 'Title', 'label']
+2026-09-02 12:08:10.913 | INFO     | __main__:clean_file:111 -   120 doublons supprimés
+2026-09-02 12:08:11.116 | INFO     | __main__:clean_file:119 -   ✓ 235,675 lignes finales, 52 colonnes
+2026-09-02 12:08:16.475 | INFO     | __main__:main:137 - ✓ Sauvegardé : E:\Mytech\cyberShieldAI\IA\phishing\datasets\processed\PhiUSIIL_Phishing_URL_Dataset_clean.parquet
+2026-09-02 12:09:44.508 | INFO     | __main__:main:41 - PhiUSIIL_Phishing_URL_Dataset_clean.parquet : 235,675 lignes
+2026-09-02 12:09:44.511 | INFO     | __main__:main:44 - Dataset fusionné : 235,675 lignes, 52 colonnes
+2026-09-02 12:09:45.240 | INFO     | __main__:main:69 - 220,086 domaines uniques pour 235,675 lignes
+2026-09-02 12:09:56.793 | INFO     | __main__:main:82 - Domaines en commun train/test : 0 (doit être 0)
+2026-09-02 12:09:56.797 | INFO     | __main__:main:89 - Train : 188,959 lignes | Test : 46,716 lignes
+2026-09-02 12:09:59.643 | INFO     | __main__:main:100 - ✓ Fichiers sauvegardés dans E:\Mytech\cyberShieldAI\IA\phishing\datasets\final
+2026-09-02 12:14:24.400 | INFO     | __main__:main:30 - Chargement des données
+2026-09-02 12:14:30.537 | INFO     | __main__:main:36 - Train : 188,959 lignes, 50 features
+2026-09-02 12:14:30.538 | INFO     | __main__:main:37 - Test  : 46,716 lignes
+2026-09-02 12:14:30.538 | WARNING  | __main__:main:52 - Retrait de features à fuite de données : ['URLSimilarityIndex']
+2026-09-02 12:14:30.542 | INFO     | __main__:main:59 - scale_pos_weight = 1.332
+2026-09-02 12:14:30.542 | INFO     | __main__:main:76 - Entraînement...
+2026-09-02 12:15:12.212 | INFO     | __main__:main:114 - ✓ Modèle sauvegardé : E:\Mytech\cyberShieldAI\IA\phishing\models\xgb_phishing_model.json
+2026-09-02 12:22:34.716 | INFO     | __main__:main:52 - Chargement des données
+2026-09-02 12:22:47.831 | WARNING  | __main__:main:59 - Features retirées pour ce test : ['URLSimilarityIndex', 'NoOfExternalRef', 'NoOfSelfRef', 'NoOfEmptyRef', 'LineOfCode', 'LargestLineLength', 'NoOfImage', 'NoOfCSS', 'NoOfJS']
+2026-09-02 12:22:48.710 | INFO     | __main__:main:63 - Train : 188,959 lignes, 41 features restantes
+2026-09-02 12:22:48.733 | INFO     | __main__:main:64 - Features conservées : ['URLLength', 'DomainLength', 'IsDomainIP', 'CharContinuationRate', 'TLDLegitimateProb', 'URLCharProb', 'TLDLength', 'NoOfSubDomain', 'HasObfuscation', 'NoOfObfuscatedChar', 'ObfuscationRatio', 'NoOfLettersInURL', 'LetterRatioInURL', 'NoOfDegitsInURL', 'DegitRatioInURL', 'NoOfEqualsInURL', 'NoOfQMarkInURL', 'NoOfAmpersandInURL', 'NoOfOtherSpecialCharsInURL', 'SpacialCharRatioInURL', 'IsHTTPS', 'HasTitle', 'DomainTitleMatchScore', 'URLTitleMatchScore', 'HasFavicon', 'Robots', 'IsResponsive', 'NoOfURLRedirect', 'NoOfSelfRedirect', 'HasDescription', 'NoOfPopup', 'NoOfiFrame', 'HasExternalFormSubmit', 'HasSocialNet', 'HasSubmitButton', 'HasHiddenFields', 'HasPasswordField', 'Bank', 'Pay', 'Crypto', 'HasCopyrightInfo']
+2026-09-02 12:22:48.734 | INFO     | __main__:main:83 - Entraînement (sans les features de richesse de contenu)...
+2026-09-02 12:23:27.396 | INFO     | __main__:main:113 - ✓ Modèle de test sauvegardé (séparément) : E:\Mytech\cyberShieldAI\IA\phishing\experiments\xgb_phishing_robust.json

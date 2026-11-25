@@ -1,0 +1,4 @@
+2026-09-01 14:21:36.308 | INFO     | __main__:main:148 - Chargement du modèle
+2026-09-01 14:21:43.951 | INFO     | __main__:main:150 - Modèle chargé, 77 features attendues, 14 classes
+2026-09-01 14:21:54.138 | INFO     | __main__:prepare_input:76 - Préparation des données d'entrée
+2026-09-01 14:21:56.795 | INFO     | __main__:prepare_input:112 - 221,264 lignes prêtes pour la prédiction

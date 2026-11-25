@@ -1,0 +1,10 @@
+INFO:     Started server process [7436]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+E:\Mytech\cyberShieldAI\Backend\venv\Lib\site-packages\fastapi\openapi\utils.py:303: UserWarning: Duplicate Operation ID get_chat_support_chat_get for function get_chat at E:\Mytech\cyberShieldAI\Backend\app\routers\support.py
+  warnings.warn(message, stacklevel=1)
+E:\Mytech\cyberShieldAI\Backend\venv\Lib\site-packages\fastapi\openapi\utils.py:303: UserWarning: Duplicate Operation ID send_chat_message_support_chat_post for function send_chat_message at E:\Mytech\cyberShieldAI\Backend\app\routers\support.py
+  warnings.warn(message, stacklevel=1)
+E:\Mytech\cyberShieldAI\Backend\venv\Lib\site-packages\fastapi\openapi\utils.py:303: UserWarning: Duplicate Operation ID get_support_inbox_support_inbox_get for function get_support_inbox at E:\Mytech\cyberShieldAI\Backend\app\routers\support.py
+  warnings.warn(message, stacklevel=1)

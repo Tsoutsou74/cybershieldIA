@@ -1,0 +1,2 @@
+2026-10-29 11:06:54.680 | INFO     | IDS model loaded: xgb_ids_model.json (77 features)
+2026-10-29 11:06:55.369 | INFO     | IDS prediction complete: status=SAFE label=Benign risk=0.0001 confidence=0.9999

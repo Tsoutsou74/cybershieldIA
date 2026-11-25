@@ -14,12 +14,6 @@ __pycache__/
 .env.*
 !.env.example
 
-# Données générées et volumineuses
-*.log
-*.db
-IA/datasets/
-IA/logs/
-
 # IDE et système
 .vscode/
 .idea/
