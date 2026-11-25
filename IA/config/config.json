@@ -1,0 +1,39 @@
+{
+  "_comment": "Configuration centrale de CyberShield AI. Modifiez ces valeurs sans toucher au code Python.",
+
+  "data": {
+    "test_size": 0.2,
+    "random_state": 42
+  },
+
+  "model": {
+    "n_estimators": 400,
+    "max_depth": 8,
+    "learning_rate": 0.1,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "max_bin": 128,
+    "early_stopping_rounds": 30,
+    "sample_weight_strategy": "sqrt_balanced",
+    "_sample_weight_strategy_options": "sqrt_balanced (recommandé) | balanced (agressif, sur-détection possible) | none"
+  },
+
+  "labels": {
+    "merge_web_attacks": true,
+    "_merge_web_attacks_note": "fusionne Brute Force + XSS en 'Web Attack HTTP' (voir experiments/analyze_bruteforce_vs_xss.py) — mettre à false pour revenir aux classes séparées",
+    "leaky_columns": [
+      "flow_id", "source_ip", "src_ip", "destination_ip", "dst_ip",
+      "timestamp", "source_port", "src_port"
+    ]
+  },
+
+  "prediction": {
+    "confidence_threshold": 0.60,
+    "_confidence_threshold_note": "en dessous de ce seuil, une prédiction est signalée comme peu fiable (low_confidence)"
+  },
+
+  "watcher": {
+    "poll_interval_seconds": 30,
+    "supported_extensions": [".parquet", ".csv"]
+  }
+}

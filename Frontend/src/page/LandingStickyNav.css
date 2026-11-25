@@ -1,0 +1,22 @@
+.landing-page {
+  overflow-x: clip;
+  overflow-y: visible;
+}
+
+.landing-header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+.landing-page [id] {
+  scroll-margin-top: 82px;
+}
+
+@media (max-width: 760px) {
+  .landing-page [id] {
+    scroll-margin-top: 112px;
+  }
+}

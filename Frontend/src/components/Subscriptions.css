@@ -1,0 +1,9 @@
+.subscription-filters{display:flex;align-items:end;gap:8px}
+.subscription-filters label{display:grid;gap:4px;color:#93a2b7;font-size:9px}
+.subscription-filters select{min-height:32px;padding:0 9px;border:1px solid #253750;border-radius:7px;background:#071322;color:#e0e8f3;font:10px 'DM Sans',sans-serif}
+.payment-reference{max-width:150px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.payment-review-actions{display:flex;gap:6px;white-space:nowrap}
+.payment-review-actions button,.plan-card>.secondary-action{min-height:30px;padding:0 9px;font-size:9px}
+.plan-card>.secondary-action{width:100%;margin-top:7px}
+.light-mode .subscription-filters select{background:#f8fafd;color:#172842;border-color:#d6e0ed}
+@media(max-width:700px){.subscription-filters{width:100%;flex-wrap:wrap}.subscription-filters label{flex:1}.payment-review-actions{flex-wrap:wrap}}

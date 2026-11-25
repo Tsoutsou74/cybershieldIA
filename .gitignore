@@ -1,0 +1,27 @@
+
+# Environnement Python
+Backend/venv/
+venv/
+.venv/
+
+# Fichiers Python temporaires
+__pycache__/
+*.py[cod]
+*.pyd
+
+# Variables d'environnement et secrets
+.env
+.env.*
+!.env.example
+
+# Données générées et volumineuses
+*.log
+*.db
+IA/datasets/
+IA/logs/
+
+# IDE et système
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

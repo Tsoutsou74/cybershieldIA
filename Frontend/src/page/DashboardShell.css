@@ -1,0 +1,17 @@
+.cyber-dashboard {
+  min-height: 100vh;
+  background:
+    radial-gradient(ellipse at 72% -22%, color-mix(in oklch, var(--primary) 10%, transparent), transparent 48%),
+    var(--background);
+  color: var(--foreground);
+  font-family: "Geist Variable", ui-sans-serif, system-ui, sans-serif;
+}
+
+.cyber-dashboard [data-slot="sidebar-inset"] {
+  min-height: 100vh;
+  background: transparent;
+}
+
+.cyber-dashboard [data-slot="sidebar"] [data-slot="sidebar-menu-button"][data-active] {
+  color: var(--sidebar-accent-foreground);
+}
